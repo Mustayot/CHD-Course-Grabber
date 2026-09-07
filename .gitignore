@@ -1,0 +1,13 @@
+/target
+*.exe
+.idea
+.vscode
+
+# 本地运行产物(含敏感 Cookie/token,勿提交)
+chd_grabber_cfg.json
+login_result.json
+login_trace.log
+defaultpage_debug.html
+fetch_debug_response.txt
+*.log
+.chd_login_webdata/

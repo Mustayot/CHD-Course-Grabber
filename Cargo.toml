@@ -1,0 +1,21 @@
+[package]
+name = "chd-course-grabber"
+version = "1.0.0"
+edition = "2021"
+description = "Chang'an University URP/eams elective course grabber with a polished egui UI"
+
+[dependencies]
+eframe = "0.29"
+reqwest = { version = "0.12", default-features = false, features = ["json", "blocking", "rustls-tls", "gzip"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = "0.4"
+webbrowser = "1"
+wry = "0.56"
+tao = "0.36"
+url = "2"
+
+[profile.release]
+opt-level = 2
+lto = "thin"
+strip = "symbols"
