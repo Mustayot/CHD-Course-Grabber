@@ -1,4 +1,4 @@
-[English](README.md) | 中文
+English | [中文](README.zh-CN.md)
 # URP/eams Course Grabber (Desktop)
 
 Automated course-selection helper for URP/eams (Zhengfang-style) academic systems, with an extra multi-account tab for "smart sport" (physical-education) H5 election portals.
