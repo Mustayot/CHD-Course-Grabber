@@ -1,4 +1,4 @@
-English | [中文](README.zh-CN.md)
+[English](README.md) | 中文
 # URP/eams 选课助手 (桌面版)
 
 URP/eams(正方同系)教务系统自动选课桌面工具,另附一个面向"智慧体育"H5 选课门户的多账号抢课页签。
