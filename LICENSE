@@ -1,21 +1,76 @@
-MIT License
+CHD-Course-Grabber 个人使用许可协议 1.0
+版权所有 © 2026 Mustayot，保留所有权利。
+本协议以中文文本为最终效力版本。
 
-Copyright (c) 2026 mustayot
+一、授权范围
+本协议授予自然人用户非独占、不可转让的个人使用权利：
+在个人学习、个人研究、本人选课以及由本人控制的设备上运行的前提下，您可以自由获取、查阅、修改并运行本项目的源代码。
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+本项目的核心功能是辅助用户在正方（URP/eams）教务系统及智慧体育 H5 选课门户中完成选课操作，授权范围以此类使用场景为限。
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+二、您可以做的事情
+下载本项目的源码到本地；
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+出于个人选课或学习目的，对源码进行修改；
+
+在您自己的 Windows 设备上编译、部署并运行；
+
+保留一份或多份副本，仅用于个人备份；
+
+通过 GitHub 平台提供的 Fork 功能，将代码保存到您的账户下以供查阅或后续使用。
+
+三、明确禁止的行为
+为避免误解，以下使用方式明确不在授权范围内：
+
+将本项目用于任何形式的商业目的，包括但不限于收费代抢课、收费部署、收费维护或收费咨询；
+
+使用本项目为他人代抢课程、代管账号或提供任何形式的选课服务；
+
+使用本项目同时操作非本人所有的账号（本人名下多个账号除外，但需自行承担相应风险）；
+
+收集、存储或处理他人的密码、Cookie、Token 或个人身份信息；
+
+将本项目的原始版本或您修改后的版本，作为独立产品重新发布；
+
+通过软件包管理源、镜像站、压缩包、网盘或其他任何渠道重新分发；
+
+删除、隐藏或篡改本协议及源代码中的版权声明；
+
+对外宣称您是本项目的原创作者；
+
+利用本项目从事违反国家法律、所在学校规定或第三方平台（包括但不限于教务系统、智慧体育平台）服务条款的活动，包括但不限于在非选课时间使用、以过高频率请求触发学校风控机制等。
+
+四、使用风险提示
+本项目涉及自动化的网络请求操作，使用前请务必了解以下风险：
+
+选课系统通常有频率限制和反爬机制，过高频率的请求可能导致您的账号被临时或永久封禁；
+
+教务系统的接口可能随时变更，本项目不保证在任何时间、任何学校部署下均能正常工作；
+
+多账号同时操作可能触发额外的安全策略，后果由使用者自行承担；
+
+选课结果受网络延迟、服务器状态等多方面因素影响，本项目不保证一定能选上目标课程。
+
+五、第三方依赖的许可说明
+本项目所引用的第三方库和组件（包括但不限于 Rust 生态中的各类 crate），各自遵循其原有的开源许可证。本协议不覆盖、不修改也不影响那些第三方授权条款的效力，您在使用相关依赖时仍需遵守其原始许可要求。
+
+六、授权终止
+如果您违反了本协议中的任何条款，您所获得的授权将自动终止。终止后，您必须立即停止使用本项目，并删除您所持有的所有相关副本（包括修改版）。
+
+七、免责声明
+本项目是以“现状”形式提供的，不附带任何明示或默示的担保。作者不对以下事项作出任何保证：
+
+项目持续可用或不出现错误；
+
+教务系统或智慧体育平台的接口保持稳定不变；
+
+选课请求能够成功提交或被系统接受；
+
+使用过程中不会触发学校的安全防护机制；
+
+您的账号、数据始终安全、完整、不丢失。
+
+因使用或无法使用本项目所导致的任何后果，包括但不限于账号被封禁、选课失败、数据丢失、服务器异常等，均由使用者自行承担全部责任，作者不承担任何法律或赔偿责任。
+
+八、其他授权说明
+超出本协议约定的商业性使用、多人服务、再发布或任何其他形式的非个人用途，目前均不开放授权。若您对协议条款在您所在司法辖区的有效性存在疑问，建议咨询具备资质的法律专业人士。
